@@ -84,7 +84,7 @@ const holdDice = function () {
   currentScore = 0;
   current0El.textContent = 0;
 
-  if (scores[`${currentPlayer}`] >= 10) {
+  if (scores[`${currentPlayer}`] >= 100) {
     document
       .querySelector(`.player--${currentPlayer}`)
       .classList.add('player--winner');
